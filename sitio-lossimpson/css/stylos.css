@@ -1,0 +1,216 @@
+
+/*font-family: 'Open Sans', sans-serif;*/
+body{ 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: rgba(0, 204, 255, 0.823) ;
+    
+    
+}
+header{
+    background-image: url(img3.jpg);
+    background-color: rgb(0, 195, 255);
+    padding: 16px 0;
+}
+header h1{
+    color:yellow;
+    font-size: 70px;
+    font-weight: 10;
+    font-style: inherit;
+    display:inline-block;
+    position: relative ;
+    bottom:110px;
+    margin-left: 10px;
+}
+nav ul{ /*saco cosas de la etqueta ul y uso el displey para usar los botones inclinados*/
+    list-style: none;
+    padding: 0;
+    margin:0;
+    display:flex;}
+
+    nav ul li{ /*con grow separo*/
+        flex-grow: 1;
+        background-color: rgba(255, 238, 0, 0.838);
+        color: black;
+        opacity: 0,6;
+    }
+    
+    nav ul li a{
+    
+        color: black;
+        text-decoration: double;
+        padding: 10px 2px;
+        display: block;
+        text-align: center;
+    }
+    nav ul li a:hover {
+        background-color: darkkhaki;
+    }
+    nav ul li a.activo{
+        background-color:yellow;
+    }
+
+    .holder{
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    h2{
+        color: black;
+        font-weight: 400;
+
+    }
+    /*
+    */
+    /*Inicio home*/
+    .galeria{
+        
+        size-adjust: 10px;
+        display: block;
+        width: 150px;
+        height: 100px;
+    }
+    
+    
+    .familia{
+        width:  75%;
+        padding:30;
+        box-sizing: border-box 15px;
+        background-color: rgba(235, 241, 32, 0.884);
+        
+    }
+    .personajess{
+        width:  30%;
+        padding: 30px;
+        box-sizing: border-box 15px;
+        background-color: rgba(215, 222, 151, 0.884);
+       }
+    .columnas{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .familia p {
+        font-size: larger;
+        display: block;
+    }
+    .personajess span {
+         
+        font-size: larger;
+        padding: 10px;
+        display: block;
+    }
+    /*Findel home*/
+
+    /*Inicio personajes */
+    .Personaje-s p{
+        font-size: large;
+    }
+    .integrante{
+        border: 1px ;
+        width: 20%;
+        padding: 3%;
+
+    }
+    .integrantes{
+        display: flex;
+        align-content:space-between;
+    }
+
+    .integrante img{
+    box-shadow: none;
+    }
+    .integrante h5,
+    .integrante h6{
+        margin: 0;
+        font-weight: 60%;
+        color: rgb(22, 22, 23);
+    }
+/*Find personajes*/
+/*Inicio temporadas*/
+
+.temporada{
+    border: 1px ridge ;
+    padding: 16px;
+    display: inline-flex;
+    align-items: center;
+    margin: 1px;
+    gap: 32px
+    ;
+}
+.info img{
+    border-style: double;
+    
+    display: flex block;
+
+}
+/*Find temporadas*/
+/*Inicio memes*/
+
+
+
+/*Find memes*/
+
+/*Inicio contacto*/
+
+.memes {
+    padding: 10px;;
+    box-sizing:border-box;
+    margin-bottom: 150px;
+    margin-right: 1px;
+    border-color: solid black;
+    display: flex;
+}
+
+
+.Formulario{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+    width: 700%;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px red;
+    position: relative;
+}
+.formulario__titulo{
+    text-align: center;
+    margin-top: 0%;
+    color: #494343;
+}
+.formulario__input, .formulario__label, .formulario__submit {
+    display: block;
+    width: 100%;
+    margin-bottom: 1,3em;
+    }
+    
+    .formulario__input{
+        padding: 20px;
+        background:transparent;
+        border: 1px solid color(srgb red green blue);
+        margin-bottom: 40px;
+
+    }
+    .boton{
+        background-color: rgb(102, 89, 89);
+        border-bottom: 0ch;
+        cursor: pointer;
+    }
+    .formulario_label{
+      
+
+    }
+    /*Find temporadas*/
+
+
+
+
+
+    footer{
+        
+    }
+.img2{
+border-radius:50%; width: 250px;height: 250px;
+}
